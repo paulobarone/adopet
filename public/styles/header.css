@@ -1,3 +1,12 @@
+body {
+  background-image: url('../../public/img/top-shape.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 352.11px 295px;
+  height: 100vh;
+  max-width: 100vw;
+}
+
 .menu-list {
   display: flex;
   flex-direction: row;
@@ -6,10 +15,18 @@
   width: 100px;
 }
 
+.menu-list-item:first-child {
+  margin-right: 48px;
+}
+
+.menu-list-item {
+  margin-right: 100%;
+}
+
 header {
   padding: 3em;
   display: flex;
-  gap: 48px;
+  /* gap: 48px; NUNCA */
   width: auto;
   align-items: center;
 }
