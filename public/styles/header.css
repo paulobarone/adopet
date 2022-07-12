@@ -1,0 +1,15 @@
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+
+header {
+  padding: 3em;
+  display: flex;
+  gap: 48px;
+  width: auto;
+  align-items: center;
+}
