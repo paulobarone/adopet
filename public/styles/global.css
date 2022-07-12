@@ -8,3 +8,8 @@
   --gray-400: #F6F6F6;
   --white: #FFFFFF;
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  max-width: 312px;
+}

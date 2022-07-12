@@ -1,0 +1,115 @@
+body {
+  background-color: var(--white);
+  background-image: url('../../public/img/patas.svg'), url('../../public/img/top-shape.png'), url("../../public/img/left-shape.png");
+  background-repeat: no-repeat;
+  background-position: 110% 0%, top left, left 70%;
+  background-size: 189.96px 243.41px, 325.11px 295px, 84.03px 415px;
+  height: 100vh;
+  max-width: 100vw;
+}
+
+.logo {
+  margin: 3em 0 16px 0;
+  width: 186px;
+  height: 46px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+  padding: 24px;
+}
+
+.quest {
+  margin-bottom: 10px;
+  color: var(--blue);
+}
+
+p {
+  line-height: 21px;
+  text-align: center;
+  color: var(--blue);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+label {
+  border: none;
+  margin-bottom: 4px;
+}
+
+.textgroup {
+  margin-bottom: 24px;
+  max-width: 70vw;
+}
+
+input {
+  margin-bottom: 30px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: var(--gray-400);
+  padding: 12px 0;
+  text-align: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+
+input::placeholder {
+  color: var(--gray-200);
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+}
+
+#confirm-password {
+  margin-bottom: 40px;
+}
+
+label {
+  width: 100%;
+  position: relative;
+}
+
+.span1 {
+  background-image: url('../../public/img/not-visible.svg');
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  top: 32px;
+  right: 16px;
+}
+
+.span2 {
+  background-image: url('../../public/img/not-visible.svg');
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  top: 32px;
+  right: 16px;
+}
+
+.button {
+  display: block;
+  text-decoration: none;
+  padding: 8px 0;
+  background: var(--red);
+  color: var(--white);
+  width: 180px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+}
