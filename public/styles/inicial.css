@@ -7,12 +7,18 @@
   height: 46px;
 }
 
+.right-shape {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
 .ilustracao {
-  width: 250px;
+  max-width: 220px;
   z-index: 0;
   height: 312px;
   position: absolute;
-  bottom: 80px;
+  bottom: 60px;
 }
 
 main {
@@ -23,6 +29,7 @@ main {
   flex-grow: 1;
   padding: 24px;
   color: var(--white);
+  z-index: 1;
 }
 
 footer {
@@ -45,6 +52,7 @@ main p {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
+  max-width: 250px;
 }
 
 .button-container {
@@ -65,12 +73,18 @@ main p {
 
 
 
-@media screen and (max-height: 845px) {
+@media screen and (max-height: 830px) {
   .ilustracao {
     display: none;
   }
 
   main {
-    margin-top: 5em;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-height: 765px) {
+  .right-shape {
+    display: none;
   }
 }
