@@ -1,21 +1,14 @@
-body {
-  background-color: var(--blue);
-  background-image: url("../../public/img/right-shape.png");
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-size: 84.03px 415px;
-  height: 100%;
-  max-width: 100vw;
-}
+
 
 .logo {
-  margin: 3em 0 16px 0;
+  margin-bottom: 16px;
   width: 186px;
   height: 46px;
 }
 
 .ilustracao {
   width: 250px;
+  z-index: 0;
   height: 312px;
   position: absolute;
   bottom: 80px;
@@ -29,6 +22,10 @@ main {
   flex-grow: 1;
   padding: 24px;
   color: var(--white);
+}
+
+footer {
+  z-index: 0;
 }
 
 main h1 {
@@ -73,4 +70,16 @@ main p {
   width: 247.34px;
   height: 312.77px;
   margin-top: 27px;
+}
+
+
+
+@media screen and (max-height: 845px) {
+  .ilustracao {
+    display: none;
+  }
+
+  main {
+    margin-top: 5em;
+  }
 }
