@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 100vw;
+  position: relative;
+  
+  background-color: var(--white);
+  background-image: url('../../public/img/top-shape.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 352.11px 295px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-list div {
+  display: flex;
+
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+
+.menu-list-item:first-child {
+  margin-right: 48px;
+}
+
+.menu-list-item {
+  margin-right: 100%;
+}
+
+header {
+  padding: 3em;
+  display: flex;
+  gap: 48px;
+  width: auto;
+  align-items: center;
+}

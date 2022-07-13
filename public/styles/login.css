@@ -1,13 +1,3 @@
-body {
-  background-color: var(--white);
-  background-image: url('../../public/img/patas.svg'), url('../../public/img/top-shape.png'), url("../../public/img/left-shape.png");
-  background-repeat: no-repeat;
-  background-position: 110% 0%, top left, left 70%;
-  background-size: 189.96px 243.41px, 325.11px 295px, 84.03px 415px;
-  height: 100vh;
-  max-width: 100vw;
-}
-
 main p {
   color: var(--blue);
   margin: 56px 0 42px 0;
