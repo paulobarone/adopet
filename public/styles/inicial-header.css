@@ -8,7 +8,7 @@ body {
   background-color: var(--blue);
   background-image: url('../../public/img/top-shape.png'), url("../../public/img/right-shape.png");
   background-repeat: no-repeat;
-  background-position: top left, ;
+  background-position: top left, center right;
   background-size: 352.11px 295px, 84.03px 415px;
 }
 

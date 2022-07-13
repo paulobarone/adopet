@@ -15,6 +15,40 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <header>
+    <ul class="menu-list">
+      <div>
+        <li><a href="./index.html" class="menu-list-item"><img src="../../public/img/house.svg" alt="Ícone de uma Casa"></a></li>
+        <li><a href="./mensagem.html" class="menu-list-item"><img src="../../public/img/mail.svg" alt="Ícone de uma Carta"></a></li>
+      </div>
+      <li><a href="./perfil.html" class="menu-list-user"><img src="../../public/img/user.svg" alt="Ícone de um usuário"></a></li>
+    </ul>
+  </header>
+  <main>
+    <div class="textgroup">
+      <p>Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
+    </div>
+    <form>
+      <label for="name">Nome</label>
+      <input type="text" id="name" class="input" required placeholder="Insira seu nome completo">
+
+      <label for="fone">Telefone</label>
+      <input type="number" id="fone" class="input" required placeholder="Insira seu telefone e/ou whatsapp">
+
+      <label for="animal-name">Nome do animal</label>
+      <input type="text" id="animal-name" class="input" required placeholder="Por qual animal você se interessou?">
+
+      <label for="message">Mensagem</label>
+      <textarea cols="70" rows="10" id="message" class="input" required placeholder="Escreva sua mensagem."></textarea>
+
+      <div class="button-container">
+        <button class="button" type="submit">Enviar</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <p>2022 - Desenvolvido por Alura.</p>
+  </footer>
 </body>
 </html>

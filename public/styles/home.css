@@ -36,7 +36,7 @@ main {
 
 .pet {
   display: flex;
-  gap: 16px;
+  justify-content: space-evenly;
   background: #f6f6f682;
   padding: 16px;
   width: calc(100% - 32px);
