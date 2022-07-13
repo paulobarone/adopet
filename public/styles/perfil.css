@@ -1,0 +1,79 @@
+@import url('./button.css');
+
+.menu-list-user img {
+  width: 56px;
+  height: 56px;
+}
+
+.textgroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.textgroup p {
+  color: var(--blue);
+  line-height: 20px;
+  max-width: 250px;
+}
+
+main {
+  padding: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  background: var(--gray-400);
+  padding: 32px 16px;
+  border-radius: 10px;
+}
+
+.form-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 21px;
+  color: var(--gray);
+  line-height: 24px;
+}
+
+label {
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--blue);
+  margin-bottom: 8px;
+}
+
+.form-image__container {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-image__container p {
+  color: var(--red);
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.input {
+  border: none;
+  outline: none;
+  resize: none;
+
+  padding: 12px 12px 12px 16px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  margin-bottom: 16px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
