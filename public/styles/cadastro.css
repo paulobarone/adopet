@@ -5,13 +5,14 @@ header {
 }
 
 header .patas {
+  z-index: -1;
   position: absolute;
   top: 0;
   right: 0;
 }
 
 .logo {
-  margin: 0 16px 0;
+  margin: 30px 16px 0;
   width: 186px;
   height: 46px;
 }
@@ -23,6 +24,7 @@ main {
   text-align: center;
   flex-grow: 1;
   padding: 24px;
+  z-index: 1;
 }
 
 .left-shape {
