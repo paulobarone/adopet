@@ -30,6 +30,7 @@ body {
 
 header {
   padding: 3em;
+  padding-bottom: 0;
   display: flex;
   gap: 48px;
   width: auto;

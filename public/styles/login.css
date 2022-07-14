@@ -66,3 +66,8 @@ main a {
   margin-bottom: 24px;
   color: var(--red);
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+}

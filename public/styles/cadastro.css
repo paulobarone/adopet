@@ -25,6 +25,13 @@ main {
   padding: 24px;
 }
 
+.left-shape {
+  position: absolute;
+  top: 320px;
+  left: 0;
+  z-index: -1;
+}
+
 .quest {
   margin-bottom: 10px;
   color: var(--blue);
