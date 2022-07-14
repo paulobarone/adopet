@@ -81,6 +81,12 @@ main a {
 
 @media screen and (max-height: 845px) {
   .left-shape {
+    height: 350px;
+  }
+}
+
+@media screen and (max-height: 780px) {
+  .left-shape {
     display: none;
   }
 }

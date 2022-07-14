@@ -75,7 +75,14 @@ main p {
 
 
 
-@media screen and (max-height: 830px) {
+@media screen and (max-height: 805px) {
+  .ilustracao {
+    height: 250px;
+    bottom: 80px;
+  }
+}
+
+@media screen and (max-height: 785px) {
   .ilustracao {
     display: none;
   }
@@ -86,6 +93,13 @@ main p {
 }
 
 @media screen and (max-height: 680px) {
+  .right-shape {
+    height: 350px;
+    bottom: 60px;
+  }
+}
+
+@media screen and (max-height: 610px) {
   .right-shape {
     display: none;
   }

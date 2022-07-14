@@ -3,7 +3,6 @@ body {
 }
 
 footer {
-  width: 100vw;
   padding: 41px 0;
   background: var(--green);
   display: flex;
