@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/paulobarone/adopet/main/public/img/logotipo-blue.svg" alt="Logotipo AdoPet" width="498" height="42">
 </h1>
 
-A empresa AdoPet têm como objetivo fazer o intermédio entre adotantes de animais e ONGs que possuem foco de retirar animais da rua. Visando isso, ela precisa trazer mais usuários e aumentar a interação entre possíveis adotantes e representantes dessas ONGs e para isso, deseja implementar uma plataforma e levar a empresa pro mundo digital.
+A empresa fictícia AdoPet têm como objetivo fazer o intermédio entre adotantes de animais e ONGs que possuem foco de retirar animais da rua. Visando isso, ela precisa trazer mais usuários e aumentar a interação entre possíveis adotantes e representantes dessas ONGs e para isso, deseja implementar uma plataforma e levar a empresa pro mundo digital.
 
 ### Tecnologias
 
