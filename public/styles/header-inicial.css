@@ -3,13 +3,11 @@ body {
   flex-direction: column;
   height: 100%;
   max-width: 100vw;
-  position: relative;
   
   background-color: var(--blue);
-  background-image: url('../../public/img/top-shape.png');
+  background-image: url('../../public/img/top-shape.svg');
   background-repeat: no-repeat;
-  background-position: top left;
-  background-size: 352.11px 295px;
+  background-position: 0 0;
 }
 
 .menu-list {
@@ -35,4 +33,8 @@ header {
   gap: 48px;
   width: auto;
   align-items: center;
+}
+
+.menu-logo {
+  display: none;
 }
