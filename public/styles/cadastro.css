@@ -12,7 +12,7 @@ header .patas {
 }
 
 .logo {
-  margin: 30px 16px 0;
+  margin-bottom: 24px;
   width: 186px;
   height: 46px;
 }
@@ -29,7 +29,7 @@ main {
 
 .left-shape {
   position: absolute;
-  top: 280px;
+  top: 370px;
   left: 0;
   z-index: -1;
 }
@@ -50,16 +50,18 @@ form {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-bottom: 50px;
 }
 
-label {
+form label {
+  color: var(--gray);
   border: none;
   margin-bottom: 4px;
 }
 
 .textgroup {
   margin-bottom: 24px;
-  max-width: 70vw;
+  max-width: 80vw;
 }
 
 input {
