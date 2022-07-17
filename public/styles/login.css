@@ -13,11 +13,13 @@ main p {
 }
 
 .patas {
-  z-index: 0;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .logo {
-  margin-top: 30px;
   width: 186px;
   height: 46px;
 }
@@ -27,7 +29,6 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  flex-grow: 1;
   padding: 24px;
   z-index: 1;
 }
@@ -37,6 +38,7 @@ form {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-bottom: 200px;
 }
 
 label {
@@ -77,16 +79,4 @@ input::placeholder {
 main a {
   margin-bottom: 24px;
   color: var(--red);
-}
-
-@media screen and (max-height: 845px) {
-  .left-shape {
-    height: 350px;
-  }
-}
-
-@media screen and (max-height: 780px) {
-  .left-shape {
-    display: none;
-  }
 }
