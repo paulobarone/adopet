@@ -7,7 +7,6 @@ body {
   background-color: var(--blue);
   background-image: url('../../public/img/top-shape.svg');
   background-repeat: no-repeat;
-  background-position: 0 0;
 }
 
 header {
@@ -24,4 +23,20 @@ header {
   align-items: center;
   gap: 60px;
   height: 43px;
+}
+
+
+@media screen and (min-width: 768px) {
+  body {
+    background-position: top left;
+    background-size: 560px 470px;
+  }
+
+  .nav-bar-list {
+    gap: 70px;
+  }
+
+  .header-logo-image {
+    width: 130px;
+  }
 }
