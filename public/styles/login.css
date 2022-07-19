@@ -44,7 +44,6 @@ form {
 
 label {
   width: 100%;
-  position: relative;
   margin-bottom: 4px;
 }
 
@@ -67,7 +66,7 @@ input::placeholder {
   text-align: center;
 }
 
-.span1 {
+label span {
   background-image: url('../../public/img/not-visible.svg');
   background-repeat: no-repeat;
   width: 18px;
@@ -84,6 +83,11 @@ main a {
 
 .right-shape {
   display: none;
+}
+
+label {
+  color: var(--gray);
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
@@ -118,5 +122,34 @@ main a {
 
   label {
     margin-bottom: 8px;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  main {
+    padding-top: 0;
+    margin-bottom: 150px;
+    margin-bottom: 350px;
+  }
+
+  form {
+    max-width: 550px;
+  }
+
+  .password-all {
+    max-width: 360px;
+  }
+
+  label {
+    font-weight: 600;
+  }
+
+  form label {
+    margin-bottom: 8px;
+  }
+
+  label span {
+    top: 38px;
   }
 }

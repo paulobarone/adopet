@@ -119,3 +119,17 @@ label {
     margin-bottom: 40px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  #showcase {
+    max-width: 550px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .textgroup p {
+    width: 90%;
+  }
+}

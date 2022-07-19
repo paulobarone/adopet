@@ -31,8 +31,7 @@
     <img src="../../public/img/right-shape.svg" class="right-shape">
     <div class="textgroup">
       <img src="../../public/img/logotipo-blue.svg" alt="Adopet" class="logo">
-      <p class="quest">Ainda não tem cadastro?</p>
-      <p class="text">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+      <p class="text"><span>Ainda não tem um cadastro?</span> Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
     </div>
     <form>
       <label for="email">Email</label>
@@ -41,13 +40,14 @@
       <label for="name">Nome</label>
       <input type="text" id="name" placeholder="Digite seu nome completo">
 
-      <label for="password">Senha <span></span></label>
-      <input type="password" id="password" placeholder="Crie uma senha">
+      <label for="password" class="password-all">Senha <span></span></label>
+      <input type="password" id="password" class="password-all" placeholder="Crie uma senha">
 
-      <label for="confirm-password">Confirma sua senha <span></span></label>
-      <input type="password" id="confirm-password" placeholder="Repita a senha criada acima">
+      <label for="confirm-password" class="password-all">Confirma sua senha <span></span></label>
+      <input type="password" id="confirm-password" class="password-all" placeholder="Repita a senha criada acima">
 
-      <button class="button" type="submit">Cadastrar</button>
+      <button class="button button-mobile-tablet" type="submit">Cadastrar</button>
+      <button class="button button-desktop" type="submit">Cadastrar!</button>
     </form>
   </main>
 

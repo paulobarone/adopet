@@ -11,3 +11,15 @@
   text-align: center;
   border: none;
 }
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .button {
+    font-weight: 700;
+  }
+}

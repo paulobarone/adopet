@@ -128,3 +128,26 @@ main p {
     display: block;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .textgroup {
+    width: 500px;
+  }
+
+  .button {
+    font-weight: 600;
+  }
+
+  main {
+    padding-top: 0;
+  }
+
+  .textgroup p {
+    max-width: 500px;
+    margin-bottom: 32px;
+  }
+
+  .button-container {
+    max-width: 360px;
+  }
+}
