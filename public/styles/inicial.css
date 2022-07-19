@@ -48,6 +48,10 @@ main p {
   max-width: 250px;
 }
 
+.tablet-desktop-text {
+  display: none;
+}
+
 .button-container {
   display: flex;
   flex-direction: column;
@@ -118,5 +122,9 @@ main p {
 
   .button {
     width: 100%;
+  }
+
+  .mobile-text {
+    display: block;
   }
 }

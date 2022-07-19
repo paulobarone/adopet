@@ -5,6 +5,13 @@
   height: 56px;
 }
 
+#showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 524px;
+}
+
 .textgroup {
   display: flex;
   flex-direction: column;
@@ -16,13 +23,16 @@
 .textgroup p {
   color: var(--blue);
   line-height: 20px;
-  max-width: 250px;
+  width: 80%;
 }
 
 main {
   padding: 24px;
+  padding-top: 50px;
   display: flex;
+  width: 100%;
   flex-direction: column;
+  align-items: center;
   flex-grow: 1;
 }
 
@@ -33,6 +43,8 @@ form {
   background: var(--gray-400);
   padding: 32px 16px;
   border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .form-title {
@@ -96,4 +108,14 @@ label {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .textgroup p {
+    font-size: 18px;
+  }
+
+  form {
+    margin-bottom: 40px;
+  }
 }

@@ -12,3 +12,7 @@
 body, button, input, textarea, ::placeholder {
   font-family: 'Poppins', sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+}

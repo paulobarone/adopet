@@ -14,6 +14,14 @@ header {
   padding: 3em;
   display: flex;
   width: auto;
+  position: relative;
+}
+
+.patas {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .nav-bar-list {
@@ -23,4 +31,31 @@ header {
   align-items: center;
   gap: 60px;
   height: 43px;
+}
+
+.header-logo {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  header {
+    padding: 64px 50px;
+  }
+
+  body {
+    background-size: 560px 470px;
+  }
+
+  .header-logo {
+    display: block;
+  }
+
+  .header-logo-image {
+    width: 130px;
+  }
+
+  .nav-bar-list {
+    gap: 70px;
+  }
 }

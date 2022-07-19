@@ -19,6 +19,7 @@
     <nav id="nav-bar">
       <ul class="nav-bar-list">
         <div class="nav-bar-menu">
+          <li class="header-logo"><a href="#"><img src="../../public/img/logotipo-white.svg" alt="Adopet" class="header-logo-image"></a></li>
           <li><a href="#"><img src="../../public/img/house.svg" alt="Ícone de uma casa" class="nav-bar-image"></a></li>
           <li><a href="#"><img src="../../public/img/mail.svg" alt="Ícone de um e-mail" class="nav-bar-image"></a></li>
         </div>
@@ -28,33 +29,35 @@
   </header>
 
   <main>
-    <div class="textgroup">
-      <p>Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+    <div id="showcase">
+      <div class="textgroup">
+        <p>Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+      </div>
+      <form>
+        <h1 class="form-title">Perfil</h1>
+        <label for="photo">Foto</label>
+        <div class="form-image__container">
+          <img src="../../public/img/perfil-image.png" alt="Imagem de perfil" id="photo">
+          <p>Clique na foto para editar</p>
+        </div>
+        
+        <label for="name">Nome</label>
+        <input type="text" class="input" value="Joana Magalhães" placeholder="Insira seu nome">
+  
+        <label for="fone">Telefone</label>
+        <input type="tel" class="input" value="+55 (11) XXXXXXXXX" placeholder="Insira seu telefone">
+  
+        <label for="city">Cidade</label>
+        <input type="text" class="input" value="São Paulo" placeholder="Insira sua cidade">
+  
+        <label for="about">Sobre</label>
+        <span class="input input-textarea" role="textbox" contenteditable>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</span>
+  
+        <div class="button-container">
+          <button class="button" type="submit">Salvar</button>
+        </div>
+      </form>
     </div>
-    <form>
-      <h1 class="form-title">Perfil</h1>
-      <label for="photo">Foto</label>
-      <div class="form-image__container">
-        <img src="../../public/img/perfil-image.png" alt="Imagem de perfil" id="photo">
-        <p>Clique na foto para editar</p>
-      </div>
-      
-      <label for="name">Nome</label>
-      <input type="text" class="input" value="Joana Magalhães" placeholder="Insira seu nome">
-
-      <label for="fone">Telefone</label>
-      <input type="tel" class="input" value="+55 (11) XXXXXXXXX" placeholder="Insira seu telefone">
-
-      <label for="city">Cidade</label>
-      <input type="text" class="input" value="São Paulo" placeholder="Insira sua cidade">
-
-      <label for="about">Sobre</label>
-      <span class="input input-textarea" role="textbox" contenteditable>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</span>
-
-      <div class="button-container">
-        <button class="button" type="submit">Salvar</button>
-      </div>
-    </form>
   </main>
 
   <footer>

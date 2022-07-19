@@ -25,6 +25,10 @@ header {
   height: 43px;
 }
 
+.header-logo {
+  display: none;
+}
+
 
 @media screen and (min-width: 768px) {
   body {
@@ -32,8 +36,16 @@ header {
     background-size: 560px 470px;
   }
 
+  header {
+    padding: 64px 50px;
+  }
+
   .nav-bar-list {
     gap: 70px;
+  }
+
+  .header-logo {
+    display: block;
   }
 
   .header-logo-image {

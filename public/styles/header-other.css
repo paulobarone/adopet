@@ -39,3 +39,36 @@ header {
   width: 40px;
   height: 40px;
 }
+
+.header-logo {
+  display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  header {
+    padding: 64px 50px;
+  }
+
+  body {
+    background-size: 560px 470px;
+  }
+
+  .header-logo {
+    display: block;
+  }
+
+  .header-logo-image {
+    width: 130px;
+  }
+
+  .nav-bar-list {
+    gap: 70px;
+  }
+
+  .icon-user {
+    width: 48px;
+    height: 48px;
+  }
+}

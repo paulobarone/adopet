@@ -93,3 +93,25 @@ main {
   line-height: 16px;
   font-weight: 400;
 }
+
+
+@media screen and (min-width: 768px) {
+  main {
+    padding: 0 32px;
+  }
+  
+  p span {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .pets__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .textgroup {
+    max-width: 380px;
+  }
+}

@@ -19,6 +19,7 @@
     <nav id="nav-bar">
       <ul class="nav-bar-list">
         <div class="nav-bar-menu">
+          <li class="header-logo"><a href="#"><img src="../../public/img/logotipo-white.svg" alt="Adopet" class="header-logo-image"></a></li>
           <li><a href="#"><img src="../../public/img/house.svg" alt="Ícone de uma casa" class="nav-bar-image"></a></li>
           <li><a href="#"><img src="../../public/img/mail.svg" alt="Ícone de um e-mail" class="nav-bar-image"></a></li>
         </div>
@@ -27,26 +28,29 @@
     </nav>
   </header>
   <main>
-    <div class="textgroup">
-      <p>Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
-    </div>
-    <form>
-      <label for="name">Nome</label>
-      <input type="text" id="name" class="input" required placeholder="Insira seu nome completo">
-
-      <label for="fone">Telefone</label>
-      <input type="number" id="fone" class="input" required placeholder="Insira seu telefone e/ou whatsapp">
-
-      <label for="animal-name">Nome do animal</label>
-      <input type="text" id="animal-name" class="input" required placeholder="Por qual animal você se interessou?">
-
-      <label for="message">Mensagem</label>
-      <textarea cols="70" rows="10" id="message" class="input" required placeholder="Escreva sua mensagem."></textarea>
-
-      <div class="button-container">
-        <button class="button" type="submit">Enviar</button>
+    <div id="showcase">
+      <img src="../../public/img/right-shape.svg" class="right-shape">
+      <div class="textgroup">
+        <p>Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
       </div>
-    </form>
+      <form>
+        <label for="name">Nome</label>
+        <input type="text" id="name" class="input" required placeholder="Insira seu nome completo">
+  
+        <label for="fone">Telefone</label>
+        <input type="number" id="fone" class="input" required placeholder="Insira seu telefone e/ou whatsapp">
+  
+        <label for="animal-name">Nome do animal</label>
+        <input type="text" id="animal-name" class="input" required placeholder="Por qual animal você se interessou?">
+  
+        <label for="message">Mensagem</label>
+        <textarea cols="70" rows="10" id="message" class="input" required placeholder="Escreva sua mensagem."></textarea>
+  
+        <div class="button-container">
+          <button class="button" type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
   </main>
 
   <footer>
