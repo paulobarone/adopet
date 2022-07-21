@@ -59,7 +59,6 @@ form label {
 }
 
 input {
-  margin-bottom: 20px;
   width: 100%;
   max-width: 350px;
   border: none;
@@ -78,7 +77,7 @@ input::placeholder {
   text-align: center;
 }
 
-#confirm-password {
+.input-container:last-child {
   margin-bottom: 24px;
 }
 
@@ -110,6 +109,17 @@ label span {
   display: none;
 }
 
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.input-container:nth-child(3), .input-container:nth-child(4) {
+  max-width: 360px;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -150,11 +160,7 @@ label span {
     margin-bottom: 50px;
   }
 
-  input {
-    margin-bottom: 24px;
-  }
-
-  #confirm-password {
+  .input-container:last-child {
     margin-bottom: 40px;
   }
 
@@ -185,10 +191,6 @@ label span {
 
   input {
     max-width: 550px;
-  }
-
-  .password-all {
-    max-width: 360px;
   }
 
   label {
