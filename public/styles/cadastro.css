@@ -121,6 +121,10 @@ label span {
   max-width: 360px;
 }
 
+.input-message-error {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
 
   .logo {

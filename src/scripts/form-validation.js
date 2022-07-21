@@ -1,5 +1,4 @@
 const inputs = document.querySelectorAll('input')
-const divsContainer = document.querySelectorAll('.input-container')
 
 inputs.forEach(input => {
   input.addEventListener('blur', (event) => {
@@ -15,13 +14,13 @@ function valid(input) {
   }
 
   if(input.validity.valid) {
-    input.parentElement.classList.remove('input-invalid')
-    input.parentElement.querySelector('.input-message-error').style.display = "none"
-    input.parentElement.querySelector('.input-message-error').innerHTML = ''
+    input.parentElement.classList.remove('input-invalid');
+    input.parentElement.querySelector('.input-message-error').style.display = "none";
+    input.parentElement.querySelector('.input-message-error').innerHTML = '';
   } else {
-    input.parentElement.classList.add('input-invalid')
-    input.parentElement.querySelector('.input-message-error').style.display = "block"
-    input.parentElement.querySelector('.input-message-error').innerHTML = showError(inputType, input)
+    input.parentElement.classList.add('input-invalid');
+    input.parentElement.querySelector('.input-message-error').style.display = "block";
+    input.parentElement.querySelector('.input-message-error').innerHTML = showError(inputType, input);
   }
 }
 
